@@ -1,3 +1,5 @@
+/* Team - 5 */
+
 var b = require('bonescript');
 
 setInterval(readTemp,2000);
@@ -15,6 +17,8 @@ function printStatus(x) {
         //setTimeout(readTemp, 250);
     }
     else if(x.value<0.7){
-        console.log('Door UNLOCKED!!! INTRUDER!!!')
+        console.log('1')
     }
+   // break;
 }
+
